@@ -3,7 +3,7 @@
 Clean, analyze, and visualize **daily FX exchange rates** (160+ currencies) with ready-made scripts and a Streamlit dashboard.
 
 **Dataset columns**: `currency`, `base_currency`, `currency_name`, `exchange_rate`, `date`  
-> Assumption: `exchange_rate` = units of **base_currency per 1 unit of `currency`** (e.g., if base = USD and currency = EUR, 1 EUR = 1.07 USD).
+> Assumption: `exchange_rate` = units of **`currency` per 1 unit of `base_currency`** (e.g., if base = EUR and currency = USD, 1 EUR = 1.17 USD).
 
 ---
 
