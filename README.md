@@ -31,7 +31,6 @@ fx-exchange-analytics/
 ├── data/
 │   ├── fx_daily.csv                # put your dataset here (excluded from git by default)
 │   └── events_template.csv         # sample structure for event analysis
-├── notebooks/
 ├── results/                        # exported charts/tables
 └── src/
     ├── process_fx.py
@@ -86,8 +85,3 @@ Then open the URL shown in terminal.
 - If there are multiple `base_currency` values, you can **filter** by base in CLI or Streamlit.
 - Cross-rate conversions use: `(base_per_from) / (base_per_to)`.
 - Forecasts are simple baselines for demonstration; always validate before using for decisions.
-
----
-
-## 📝 License
-MIT (add `LICENSE` if you plan to open-source).
